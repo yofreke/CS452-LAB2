@@ -1,3 +1,6 @@
+Lab2 is designed to understand how to create and use shaders.
+
+You can reference the shader programs from the books.
 
 Make a header file that reads a shader file.
 
