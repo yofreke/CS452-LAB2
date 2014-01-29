@@ -1,5 +1,8 @@
 Lab2 is designed to help people understand how to create and use shaders.
 
+Use VAO's and VBO's to draw shapes.
+If you use glBegin and glEnd to draw shapes you will lose points.
+
 Write a shader header file that you use to color a polygon.
 
 Make sure you input the color into the shaders to color the polygon.
