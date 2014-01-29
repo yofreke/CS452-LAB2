@@ -38,12 +38,13 @@ void init(){
   initShaders(shaders);
   
   glEnableVertexAttribArray(0);
-  glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,0,(void*)0);
+  glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,0,vertexarray);
+  glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,0,colorarray);
 }
 
 void drawscene(){
   glClear(GL_COLOR_BUFFER_BIT);
-  glDrawArrays(GL_TRIANGLES,0,3+(counter%3));
+  glDrawArrays(GL_TRIANGLES,0,3);
   glFlush();
 }
 
@@ -52,6 +53,7 @@ void mousepress(int button, int state, int x, int y){
     exit(0);
   else if(button==GLUT_LEFT_BUTTON && state==GLUT_DOWN){
     counter++;
+    cout << counter%3 << endl;
     glutDisplayFunc(drawscene);
   }
 }
