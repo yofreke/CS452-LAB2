@@ -1,5 +1,9 @@
 Lab2 is designed to understand how to create and use shaders.
 
+Write a shader header file that you use to color a polygon.
+
+Make sure you input the color into the shaders to color the polygon.
+
 You can reference the shader programs from the books.
 
 Make a header file that reads a shader file.
