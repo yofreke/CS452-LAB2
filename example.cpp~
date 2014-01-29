@@ -42,8 +42,6 @@ void init(){
   glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,0,sizeof(vertexarray));
   glDisableVertexAttribArray(0);
   glDisableVertexAttribArray(1);
-  glBufferSubData​(enum target, intptr offset, sizeiptr size, const void *data)
-  glBufferSubData​(enum target, intptr offset, sizeiptr size, const void *data)
 
 }
 
